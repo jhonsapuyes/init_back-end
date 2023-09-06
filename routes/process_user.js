@@ -8,10 +8,19 @@ const route= Router()
 route.get('/table',(req,res)=>{
 
 
-            res.json([{"respuesta":"not results"}])
+            res.json([{"respuesta":"not table"}])
         
     
         //res.json(usuarios)
+})
+
+route.get('/hola',(req,res)=>{
+
+
+    res.json([{"respuesta":"not hola"}])
+
+
+//res.json(usuarios)
 })
 
 
