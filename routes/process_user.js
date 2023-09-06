@@ -8,7 +8,7 @@ const route= Router()
 route.get('/table',(req,res)=>{
 
 
-            res.json([{"respuesta":"not table"}])
+            res.json([{"respuesta":"not table =>"+req}])
         
     
         //res.json(usuarios)
@@ -17,7 +17,7 @@ route.get('/table',(req,res)=>{
 route.get('/hola',(req,res)=>{
 
 
-    res.json([{"respuesta":"not hola"}])
+    res.json([{"respuesta":"not hola => "+req}])
 
 
 //res.json(usuarios)
